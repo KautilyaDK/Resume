@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.social-part .fa{
+    padding-right:20px;
+}
+ul li a button{
+    padding-right: 40px;
+}
+
+.gradient-background {
+    background: linear-gradient(45deg, #d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: gradient-animation 9s ease-in-out infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.icon-square{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+#education{
+    background-color: rgb(245, 245, 245);
+}
+
+.gmail{
+  padding-right: 20px;
+}
+
+footer{
+  background-color: rgb(245, 245, 245);
+}
+
